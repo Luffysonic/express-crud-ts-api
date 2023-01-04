@@ -3,9 +3,9 @@ import * as dotenv from "dotenv";
 
 dotenv.config()
 const sequelize = new Sequelize(
-    'testdb',
-    'Ricky',
-    '29Avril2001@',
+    'DBNAME',
+    'USERNAME',
+    'USERPASSWORD',
      {
        host: 'localhost',
        dialect: 'mysql'
