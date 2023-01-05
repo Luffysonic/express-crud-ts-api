@@ -7,7 +7,7 @@ dotenv.config()
 const sequelize = new Sequelize(
     'DBNAME',
     'USERNAME',
-    'USERPASSWORD',
+    'MDP',
      {
        host: 'localhost',
        dialect: 'mysql'
